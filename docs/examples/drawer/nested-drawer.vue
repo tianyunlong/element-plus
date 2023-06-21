@@ -8,6 +8,7 @@
       <el-button @click="innerDrawer = true">Click me!</el-button>
       <el-drawer
         v-model="innerDrawer"
+        modal='flase'
         title="I'm inner Drawer"
         :append-to-body="true"
         :before-close="handleClose"
